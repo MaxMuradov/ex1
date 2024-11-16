@@ -15,7 +15,7 @@ int main() {
   Print the bit in this position. */
   printf("Please enter a number:\n");
   scanf("%d", &num);
-  printf("Please enter a possition:\n");
+  printf("Please enter a position:\n");
   scanf("%d", &pos); 
   res = (num >> pos) & 1;
   printf("The bit in position %d of number %d is: %d\n", pos, num, res);
@@ -60,8 +60,7 @@ int main() {
   If the number is even - print 1, else - print 0. */
   printf("Please enter a number:\n");
   scanf("%d", &num);
-  res = num & 1;
-  res = ~res;
+  res = num & 1
   printf("%d\n", res);
 
   // 3, 5, 7, 11
