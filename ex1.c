@@ -61,7 +61,7 @@ int main() {
   printf("Please enter a number:\n");
   scanf("%d", &num);
   res = num & 1;
-  printf("%d\n", res);
+  printf("%d\n", res ^ 1);
 
   // 3, 5, 7, 11
   printf("\n3, 5, 7, 11:\n");
