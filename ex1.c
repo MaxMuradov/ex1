@@ -60,7 +60,7 @@ int main() {
   If the number is even - print 1, else - print 0. */
   printf("Please enter a number:\n");
   scanf("%d", &num);
-  res = num & 1
+  res = num & 1;
   printf("%d\n", res);
 
   // 3, 5, 7, 11
