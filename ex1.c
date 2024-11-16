@@ -15,7 +15,7 @@ int main() {
   Print the bit in this position. */
   printf("Please enter a number:\n");
   scanf("%d", &num);
-  printf("Please enter a possition\n");
+  printf("Please enter a possition:\n");
   scanf("%d", &pos); 
   res = (num >> pos) & 1;
   printf("The bit in position %d of number %d is: %d\n", pos, num, res);
@@ -31,7 +31,7 @@ int main() {
   Print the output */
   printf("Please enter a number:\n");
   scanf("%d", &num);
-  printf("Please enter a possition\n");
+  printf("Please enter a position:\n");
   scanf("%d", &pos); 
   mask = 1 << pos;
   res = num | mask;
@@ -47,7 +47,7 @@ int main() {
   Print the new number */
   printf("Please enter a number:\n");
   scanf("%d", &num);
-  printf("Please enter a possition\n");
+  printf("Please enter a position:\n");
   scanf("%d", &pos); 
   mask = 1 << pos;
   res = num ^ mask;
@@ -69,13 +69,13 @@ int main() {
   /* Scan two integers in octal base
   sum them up and print the result in hexadecimal base
   Print only 4 bits, in positions: 3,5,7,11 in the result. */
-  printf("Please enter the first number:\n");
+  printf("Please enter the first number (octal):\n");
   scanf("%o", &num);
-  printf("Please enter the second number\n");
+  printf("Please enter the second number (octal):\n");
   scanf("%o", &num2); 
   res = num + num2;
   mask = 1;
-  printf("%X", res);
+  printf("The sum in hexadecimal: %X\n", res);
   printf("The 3,5,7,11 bits are: ");
   printf("%d", (res >> 3) & mask);
   printf("%d", (res >> 5) & mask);
