@@ -62,7 +62,7 @@ int main() {
   scanf("%d", &num);
   res = num & 1;
   res = ~res;
-  printf("&d\n", res);
+  printf("%d\n", res);
 
   // 3, 5, 7, 11
   printf("\n3, 5, 7, 11:\n");
