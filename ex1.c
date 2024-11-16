@@ -8,7 +8,7 @@ Assignment: ex1
 // REMIDER : YOU CANT USE ANY CONTROL FLOW OPERATIONS OR FUNCTIONS, ONLY BITWISE.
 
 int main() {
-  int num, pos, mask, res;
+  int num, num2 , pos, mask, res;
   // What bit
   printf("What bit:\n");
   /*Scan two integers (representing number and a position)
